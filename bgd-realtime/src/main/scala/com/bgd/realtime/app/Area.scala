@@ -49,8 +49,6 @@ object Area {
     var i :Long = 0;
     var k :Long = 0;
 
-
-
     val end: DStream[(String, String, String)] = value.transform {
       rdd =>
         val jedis: Jedis = RedisUtil.getJedisClient //driver //按周期执行
