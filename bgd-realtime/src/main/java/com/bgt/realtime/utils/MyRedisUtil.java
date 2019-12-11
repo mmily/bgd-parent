@@ -15,7 +15,7 @@ public class MyRedisUtil {
     private static boolean authFlag;
     private static String password;
 
-
+    
     static {
         //读取配置文件
         try {
